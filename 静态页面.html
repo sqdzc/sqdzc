@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--web引入-->
+
+
+
+<script src="../js/彩蛋%20.js"> </script>
+
+
+
+<style>
+  body{
+    margin: 0;
+    height: 100vh;
+    background-color: aqua;
+  }
+  .yinying{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  }
+  .flex {
+    display: flex;
+  }
+  .baiSe {
+    background-color: white;
+  }
+
+  .flex1 {
+    flex:1;
+  }
+  .columu {
+    flex-direction: column;
+  }
+  .mg8{
+    margin: 8px
+  }
+  .mgr8{
+    margin-right:8px
+  }
+  .mgt8{
+    margin-top: 8px
+  }
+  .daohang {
+    padding: 20px 40px;
+    border-bottom: 2px solid #dbbd6c;
+    font-size: 16px;
+    color: mediumturquoise;
+  }
+  .anniu {
+    width: 123px;
+    height: 40px;
+    background: linear-gradient(to bottom, #100f0f 0%, #000000 100%); /* W3C */
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    border-bottom: 4px solid #ffffff;
+    color: rgba(244, 242, 246, 0.8);
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.4);
+    font-size: 16px;
+    text-align: left;
+    text-indent: 5px;
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+    cursor: pointer;
+  }
+</style>
+<head>
+  <meta charset="UTF-8">
+  <title>主页</title>
+</head>
+<body  class="flex">
+<!--侧边栏-->
+<div style="width: 200px; z-index: 2 " class="baiSe yinying">
+<!-- 头像栏-->
+  <div style="padding: 10px;
+  align-items:center;
+  justify-content:center;
+    border-bottom: 1px solid #999;"
+       class="flex">
+
+    <img src="../resources/image/1.webp"
+    width="80"
+    height="80"
+    >
+    <div>帅气的周超</div>
+  </div>
+<!-- 隐藏滚动条-->
+
+
+  <!--导航栏-->
+  <div class="daohang anniu "> <a href="html/视频区.html">视频区</a></div>
+<div class="daohang anniu ">  <a href="html/视频区.html">音乐区</a></div>
+<div class="daohang anniu ">从运维转行新手一个</div>
+<div class="daohang anniu ">不会的问题全靠百度和视频</div>
+<div class="daohang anniu ">导致代码很乱但有注释</div>
+  <div class="daohang anniu ">学JS崩溃中</div>
+<div class="daohang anniu ">0基础根本看不懂</div>
+<div class="daohang anniu ">只能靠自己慢慢学习积累了</div>
+<div class="daohang anniu ">坚持坚持坚持！</div>
+<div class="daohang anniu ">承诺即使不干前端也会更新下去</div>
+<div class="daohang anniu ">上一次更新时间 2023.06.08</div>
+
+</div>
+<!--主区域-->
+<div class="flex1 flex columu">
+  <!--头部栏-->
+<div style="height: 80px; z-index: 1" class="baiSe yinying"></div>
+<!--内容栏-->
+  <div style="overflow: auto"  class="flex1 flex">
+
+    <!--左边内容区-->
+    <div style="flex: 3" class="flex columu mg8">
+<!--数据区-->
+      <div class="flex">
+        <!--数据块-->
+        <div style="height: 200px" class="flex1 baiSe yinying mgr8"></div>
+        <div style="height: 200px" class="flex1 baiSe yinying mgr8"></div>
+        <div style="height: 200px" class="flex1 baiSe yinying mgr8"></div>
+        <div style="height: 200px" class="flex1 baiSe yinying "></div>
+      </div>
+<!--列表区-->
+      <div class="flex columu">
+<!-- 列表区-->
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+      <div style="height: 300px" class="flex baiSe yinying mgt8"></div>
+
+      </div>
+    </div>
+
+    <!--右边内容区-->
+    <div style="flex: 1;" class="flex columu" >
+      <div style="height: 200px" class="baiSe mg8 yinying " ></div>
+      <div style="height: 400px" class="baiSe mg8 yinying"  ></div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
